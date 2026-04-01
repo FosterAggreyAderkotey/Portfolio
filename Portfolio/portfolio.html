@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foster Aggrey Aderkotey | Portfolio</title>
+
+<link rel="stylesheet" href="portfolio.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <h2>Foster.</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Foster <span>Aderkotey</span></h1>
+        <h3><span id="typing"></span></h3>
+        <p>B.Tech Computer Science Student | Web Developer | Data Analyst</p>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+</section>
+
+<section id="about" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <p class="center">
+        Passionate about building scalable web applications and analyzing data to generate actionable insights.
+    </p>
+</section>
+
+<section id="skills" data-aos="fade-up">
+    <h2 class="section-title">Skills</h2>
+    <div class="grid">
+        <div class="card">HTML & CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Python</div>
+        <div class="card">Data Analysis</div>
+        <div class="card">MySQL</div>
+        <div class="card">Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+
+        <div class="project-card" data-aos="zoom-in">
+            <img src="images/project1.jpg" alt="">
+            <h3>Animal Information Website</h3>
+            <p>Responsive website categorizing animals by habitat and diet.</p>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+            <img src="images/project2.jpg" alt="">
+            <h3>Data Analysis Dashboard</h3>
+            <p>Python-based data visualization and reporting dashboard.</p>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+            <img src="images/project3.jpg" alt="">
+            <h3>Linux Network Troubleshooting</h3>
+            <p>Resolved DNS and driver issues in Linux systems.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+    <h2 class="section-title">Contact Me</h2>
+
+    <!-- Replace with your Formspree link -->
+    <form action="https://formspree.io/f/yourID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Foster Aggrey Aderkotey
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
